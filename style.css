@@ -50,3 +50,28 @@ body{
     font-size: 20px;
 }
 
+@media (max-width:576px) {
+    .container{
+        width: 90%;
+    }
+    .box{
+        width: 90%;
+        background-color: #fff;
+        padding: 5px;
+    }
+    .one-inp,.two-inp{
+        width: 200px;
+        height: 40px;
+        outline: none;
+        padding: 20px;
+    }
+    .circle{
+        width: 90%;
+        height: 50px;
+        /* border-radius: 50%; */
+        background-color: gray;
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+

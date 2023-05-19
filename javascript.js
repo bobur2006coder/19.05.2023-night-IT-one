@@ -19,10 +19,10 @@ let amalChalar = () => {
                 answer.textContent=one-two
                 break;
                 case "edvition" :
-                    answer.textContent=one+two
+                    answer.textContent=one/two
                     break;
                     case "increment" :
-                        answer.textContent=one+two
+                        answer.textContent=one*two
                         break;
         
     }
